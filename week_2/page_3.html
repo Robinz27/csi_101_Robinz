@@ -10,10 +10,10 @@
     <form action="Auth">
         <div>
             <label for="name">ชื่อ:</label>
-            <input type="text">
+            <input type="text" placeholder="ชื่อ">
 
             <label for="lastname">นามสกุล:</label>
-            <input type="text">
+            <input type="text" placeholder="นามสกุล">
         </div>
 
         <div>
@@ -35,18 +35,36 @@
             <label for="">คณะ: </label>
             <select name="" id="">
                 <option value="คณะเทคโนโลยีสารสนเทศ">คณะเทคโนโลยีสารสนเทศ</option>
-                <option value="คณะบริหาร">คณะบริหาร</option>
+                <option value="คณะบริหาร" selected="false">คณะบริหาร</option>
                 <option value="คณะบัญชี">คณะบัญชี</option>
             </select>
         </div>
         <div>
             <label for="">เพศ: </label>
-            <input type="radio" value="male">
+            <input type="radio" value="male" name="gender" checked="false">
             <label for="">ชาย</label>
-            <input type="radio" value="female">
+            <input type="radio" value="female" name="gender">
             <label for="">หญิง</label>
         </div>
+            <label for="">งานอดิเรก</label>
+        <div>
+            <input type="checkbox" value="อ่านหนังสือ" name="hobby">
+            <label for="">อ่านหนังสือ</label>
+        </div>
+        <div>
+            <input type="checkbox" value="ออกกำลังกาย" name="hobby">
+            <label for="">ออกกำลังกาย</label>
+        </div>
+        <div>
+            <input type="checkbox" value="ดูหนัง" name="hobby">
+            <label for="">ดูหนัง</label>
+        </div>
+            <label for="">ข้อเสนอแนะ</label>
+        <div>
+            <textarea name="" id="" rows="5" cols="50"></textarea>
+        </div>
+        <button onclick="">Click</button>
+        <button onclick="">Ok</button>
     </form>
-    <button>Login</button>
 </body>
 </html>
