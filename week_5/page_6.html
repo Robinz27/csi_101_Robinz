@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 20%;
+        height: 20%;
+        margin: 10px;
+        transition: transform .2s;
+        box-shadow: 1px 2px 5px gray;
+    }
+
+    #img1{
+        visibility: visible;
+    }
+    
+    #img2{
+        opacity: 0.4;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+</style>
+<body>
+    <div>
+        <img src="img/animal.png" alt="" id="img1">
+        <img src="img/chick.png" alt="" id="img2">
+    </div>
+</body>
+</html>
