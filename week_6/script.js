@@ -35,7 +35,7 @@ console.log(typeof(flag))
 let a,b,c
 a = 5
 b = 3
-c = "2"
+c = "2.5"
 total = a + b
 console.log("total = ",total)
 console.log(typeof(total))
@@ -47,5 +47,12 @@ const PI = 3.14
 console.log("PI = ", PI)
 
 console.log(typeof(c))
-c = parseInt(c)
+// c = parseInt(c)
+// c = parseFloat(c)
+c = Number("a")
 console.log(typeof(c))
+console.log("c = ", c)
+console.log(typeof(a))
+// a = ""+a
+a = a.toString()
+console.log(typeof(a))
