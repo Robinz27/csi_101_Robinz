@@ -3,10 +3,12 @@ console.log("Where is Ailey going")
 // alert("username or password failed")
 let a1 = 15
 let b2 = 15
-console.log(a1+b2)
-console.log(a1-b2)
-console.log(a1*b2)
-console.log(a1/b2)
+console.log("a1 + b1 = ", a1+b2)
+console.log("a1 - b1 = ", a1-b2)
+console.log("a1 * b1 = ", a1*b2)
+console.log("a1 / b1 = ", a1/b2)
+console.log("a1 ** b1 = ", a1**b2)
+console.log("a1 % b1 = ", a1%b2)
 let age
 let fname = "Lisa"
 let flag = true
