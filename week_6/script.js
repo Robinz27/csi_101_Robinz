@@ -31,3 +31,6 @@ console.log(typeof(total))
 total2 = a + c
 console.log("total2 = ",total2)
 console.log(typeof(total2))
+
+const PI = 3.14
+console.log("PI = ", PI)
