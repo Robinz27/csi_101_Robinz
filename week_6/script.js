@@ -9,6 +9,15 @@ console.log("a1 * b1 = ", a1*b2)
 console.log("a1 / b1 = ", a1/b2)
 console.log("a1 ** b1 = ", a1**b2)
 console.log("a1 % b1 = ", a1%b2)
+
+console.log("++a = ",++a1)
+console.log("a = ",a1)
+console.log("b2++ = ",b2++)
+console.log("b2 = ",b2)
+
+console.log((5-2)*4)
+console.log(5*2/3)
+
 let age
 let fname = "Lisa"
 let flag = true
@@ -36,3 +45,7 @@ console.log(typeof(total2))
 
 const PI = 3.14
 console.log("PI = ", PI)
+
+console.log(typeof(c))
+c = parseInt(c)
+console.log(typeof(c))
