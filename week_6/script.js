@@ -1,5 +1,5 @@
 document.writeln("<h1>Hello Javascript</h1>")
-console.log("Where is Ailey going")
+console.log("Where is Aily going")
 // alert("username or password failed")
 let a1 = 15
 let b2 = 15
