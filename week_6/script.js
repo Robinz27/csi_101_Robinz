@@ -7,3 +7,15 @@ console.log(a+b)
 console.log(a-b)
 console.log(a*b)
 console.log(a/b)
+let age
+let fname = "Lisa"
+let flag = true
+age = 19
+document.writeln("age = ", age)
+age = 16
+console.log(age)
+document.writeln("<br>First Name = ", fname)
+console.log(typeof(age))
+console.log(typeof(sum))
+console.log(typeof(fname))
+console.log(typeof(flag))
