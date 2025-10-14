@@ -1,0 +1,15 @@
+let name1 = "LISA"
+console.log("name1 = ",name1)
+let name2 = new String("robin")
+console.log("name2 = ",name2)
+document.writeln(name1," , ",name2)
+console.log("legnth of name1 :",name1.length)
+console.log("legnth of name1 :",name2.length)
+let str1 = name1+" "+name2
+let str2 = name1.concat(name2)
+str2 = name1.concat(" ").concat(name2)
+console.log("str1 = ",str1)
+console.log("str2 = ",str2)
+console.log("name1 toLowerCase => ",name1.toLowerCase())
+console.log("name2 toUpperCase => ",name2.toUpperCase())
+console.log(name1.charAt(2))
